@@ -11,18 +11,18 @@
         </a>
       </div>
 
-      <div class="navbar__item flex items-center justify-between">
-        <div class="navbar__search w-[43] flex items-center justify-between pl-4 relative border border-solid border-[#ccc] rounded-[40px] ">
+      <div class="navbar__item w-[46%] flex items-center justify-between">
+        <div class="navbar__search w-[92%] flex items-center justify-between pl-4 relative border border-solid border-[#ccc] rounded-[40px] ">
           <input class="w-full inline-block mr-7 bg-transparent outline-none border-none text-base font-normal" type="text" placeholder="Введите запрос">
-          <span>
+          <span class="">
             <svg class="w-[20px!important]" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M20.87,20.17l-5.59-5.59C16.35,13.35,17,11.75,17,10c0-3.87-3.13-7-7-7s-7,3.13-7,7s3.13,7,7,7c1.75,0,3.35-0.65,4.58-1.71 l5.59,5.59L20.87,20.17z M10,16c-3.31,0-6-2.69-6-6s2.69-6,6-6s6,2.69,6,6S13.31,16,10,16z" class="style-scope yt-icon"></path></g></svg>
           </span>
           <img src="./assets/keyboard.png" alt="">
-          <button>
-            <svg class="" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M20.87,20.17l-5.59-5.59C16.35,13.35,17,11.75,17,10c0-3.87-3.13-7-7-7s-7,3.13-7,7s3.13,7,7,7c1.75,0,3.35-0.65,4.58-1.71 l5.59,5.59L20.87,20.17z M10,16c-3.31,0-6-2.69-6-6s2.69-6,6-6s6,2.69,6,6S13.31,16,10,16z" class="style-scope yt-icon"></path></g></svg>
+          <button class="py-[7px] px-5 bg-[#f8f8f8] hover:bg-[#0000000d] rounded-r-full border-l border-solid border-l-[#ccc] cursor-pointer">
+            <svg class="w-[24px!important] h-[24px!important]" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M20.87,20.17l-5.59-5.59C16.35,13.35,17,11.75,17,10c0-3.87-3.13-7-7-7s-7,3.13-7,7s3.13,7,7,7c1.75,0,3.35-0.65,4.58-1.71 l5.59,5.59L20.87,20.17z M10,16c-3.31,0-6-2.69-6-6s2.69-6,6-6s6,2.69,6,6S13.31,16,10,16z" class="style-scope yt-icon"></path></g></svg>
           </button>
         </div>
-        <div class="navbar__voice-search w-10 h-10 ml-2 flex items-center justify-center rounded-full cursor-pointer">
+        <div class="navbar__voice-search w-10 h-10 ml-2 flex items-center justify-center bg-[] rounded-full cursor-pointer">
           <svg class="w-[24px!important] h-[24px!important]" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M12 3C10.34 3 9 4.37 9 6.07V11.93C9 13.63 10.34 15 12 15C13.66 15 15 13.63 15 11.93V6.07C15 4.37 13.66 3 12 3ZM18.5 12H17.5C17.5 15.03 15.03 17.5 12 17.5C8.97 17.5 6.5 15.03 6.5 12H5.5C5.5 15.24 7.89 17.93 11 18.41V21H13V18.41C16.11 17.93 18.5 15.24 18.5 12Z" class="style-scope yt-icon"></path></g></svg>
         </div>
       </div>
@@ -34,7 +34,7 @@
         <div class="navbar__notification w-10 h-10 mx-2 flex items-center justify-center border border-solid border-transparent rounded-full cursor-pointer">
           <svg class="w-[24px!important] h-[24px!important]" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g><path d="M10,20h4c0,1.1-0.9,2-2,2S10,21.1,10,20z M20,17.35V19H4v-1.65l2-1.88v-5.15c0-2.92,1.56-5.22,4-5.98V3.96 c0-1.42,1.49-2.5,2.99-1.76C13.64,2.52,14,3.23,14,3.96l0,0.39c2.44,0.75,4,3.06,4,5.98v5.15L20,17.35z M19,17.77l-2-1.88v-5.47 c0-2.47-1.19-4.36-3.13-5.1c-1.26-0.53-2.64-0.5-3.84,0.03C8.15,6.11,7,7.99,7,10.42v5.47l-2,1.88V18h14V17.77z"></path></g></svg>
         </div>
-        <div class="navbar__avatar w-8 h-8 ml-3 mr-[18px] flex items-center justify-center text-[15px] font-normal leading-8 border border-solid border-transparent rounded-full cursor-pointer">L</div>
+        <div class="navbar__avatar w-8 h-8 ml-3 mr-[18px] flex items-center justify-center bg-[#5c6bc0] text-[#f9f9f9] text-[15px] font-normal leading-8 border border-solid border-transparent rounded-full cursor-pointer">L</div>
       </div>
 
     </div>
@@ -46,23 +46,30 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+%effects {
+  transition: background-color 0.2s linear;
+  &:hover {
+    background-color: #0000001a;
+  }
+  &:active {
+    background-color: #00000033;
+    border: 1px solid #00000033;
+  }
+}
+
+@mixin width-height($width, $height) {
+  width: $width;
+  height: $height;
+}
 .navbar {
   &__icon {
-    transition: background-color 0.2s linear;
-    &:hover {
-      background-color: #0000001a;
-    }
-    &:active {
-      background-color: #00000033;
-      border: 1px solid #00000033;
-    }
+    @extend %effects;
     &::before,
     &::after {
       display: inline-block;
       content: "";
       background-color: black;
-      width: 18px;
-      height: 1px;
+      @include width-height(18px, 1px);
     }
   }
 
@@ -71,8 +78,12 @@ export default {
     box-shadow: inset 0 1px 2px #eee;
     span {
       display: none;
+      align-items: center;
+      justify-content: center;
+      background-color: aquamarine;
       // @include width-height(auto, 40px);
       height: 40px;
+      width: auto;
       position: absolute;
       left: -32px;
       right: 64px;
@@ -83,46 +94,15 @@ export default {
       position: absolute;
       right: 70px;
     }
-    button {
-      border: none;
-      padding: 7px 20px;
-      border-radius: 0 40px 40px 0;
-      cursor: pointer;
-      background-color: #f8f8f8;
-      border-left: 1px solid #ccc;
-      &:hover {
-        background-color: rgba(0, 0, 0, 0.05);
-      }
-    }
-    svg {
-      // @include width-height(24px !important, 24px !important);
-      width: 24px !important;
-      height: 24px !important;
-    }
   }
 
 
   &__voice-search {
-    transition: background-color 0.2s linear;
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-    &:active {
-      background-color: rgba(0, 0, 0, 0.2);
-      border: 1px solid rgba(0, 0, 0, 0.2);
-    }
+    @extend %effects;
   }
 
   &__create-video {
-    transition: background-color 0.2s linear;
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-    &:active {
-      background-color: rgba(0, 0, 0, 0.2);
-      border: 1px solid rgba(0, 0, 0, 0.2);
-    }
-
+    @extend %effects;
     &::before {
       width: 2px;
       height: 14px;
@@ -136,28 +116,7 @@ export default {
   }
 
   &__notification {
-    transition: background-color 0.2s linear;
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-    &:active {
-      background-color: rgba(0, 0, 0, 0.2);
-      border: 1px solid rgba(0, 0, 0, 0.2);
-    }
-  }
-
-  &__avatar {
-    transition: background-color 0.2s linear;
-    &:hover {
-      background-color: rgba(0, 0, 0, 0.1);
-    }
-    &:active {
-      background-color: rgba(0, 0, 0, 0.2);
-      border: 1px solid rgba(0, 0, 0, 0.2);
-    }
-
-    background-color: #5c6bc0 !important;
-    color: #f9f9f9;
+    @extend %effects;
   }
 }
 </style>
